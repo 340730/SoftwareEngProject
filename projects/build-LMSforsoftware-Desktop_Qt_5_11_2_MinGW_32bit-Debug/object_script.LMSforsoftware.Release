@@ -1,0 +1,15 @@
+INPUT(
+./release\mainwindow.o
+./release\main.o
+./release\register.o
+./release\search.o
+./release\adminmanagment.o
+./release\studentpage.o
+./release\change.o
+./release\moc_mainwindow.o
+./release\moc_register.o
+./release\moc_search.o
+./release\moc_adminmanagment.o
+./release\moc_studentpage.o
+./release\moc_change.o
+);

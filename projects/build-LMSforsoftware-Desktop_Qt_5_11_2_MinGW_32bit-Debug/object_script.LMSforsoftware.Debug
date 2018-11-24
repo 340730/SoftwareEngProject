@@ -1,0 +1,15 @@
+INPUT(
+./debug\mainwindow.o
+./debug\main.o
+./debug\register.o
+./debug\search.o
+./debug\adminmanagment.o
+./debug\studentpage.o
+./debug\change.o
+./debug\moc_mainwindow.o
+./debug\moc_register.o
+./debug\moc_search.o
+./debug\moc_adminmanagment.o
+./debug\moc_studentpage.o
+./debug\moc_change.o
+);

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Studentpage</class>
+ <widget class="QDialog" name="Studentpage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>522</width>
+    <height>396</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Studentpage</string>
+  </property>
+  <widget class="QTableView" name="studentView">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>11</y>
+     <width>361</width>
+     <height>191</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
