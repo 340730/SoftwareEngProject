@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Modify</class>
+ <widget class="QDialog" name="Modify">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>544</width>
+    <height>344</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Modify</string>
+  </property>
+  <widget class="QPushButton" name="NextStudent">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>260</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Next Student</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Change">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>260</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Confirm Change</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Exitandsave">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>260</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exit and save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Delete">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>290</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>40</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Student Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>70</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Student ID</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>100</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>130</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nums of Course</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_nameinmo">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>40</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_idinmo">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>70</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_passwordinmo">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>100</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_numsofcourseinmo">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>130</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>150</y>
+     <width>281</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Course Enrolled and Average Score</string>
+   </property>
+   <widget class="QCheckBox" name="checkboxforCS3306inmo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>73</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CS3306</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Coursegroupinmo</string>
+    </attribute>
+   </widget>
+   <widget class="QCheckBox" name="checkboxforCS3321inmo">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>73</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CS3321</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Coursegroupinmo</string>
+    </attribute>
+   </widget>
+   <widget class="QCheckBox" name="checkboxforCS4108inmo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>73</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CS4108</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Coursegroupinmo</string>
+    </attribute>
+   </widget>
+   <widget class="QCheckBox" name="checkboxforCS4109inmo">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>50</y>
+      <width>73</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CS4109</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Coursegroupinmo</string>
+    </attribute>
+   </widget>
+   <widget class="QLineEdit" name="score_3306">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="score_4108">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="score_3321">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>20</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="score_4109">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>50</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>150</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>GPA</string>
+   </property>
+   <widget class="QLineEdit" name="lineEdit_gpa">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="Coursegroupinmo">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+ </buttongroups>
+</ui>
